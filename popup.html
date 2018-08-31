@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Standup Timer</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      .container {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+      }
+      
+      #secondsAllocated {
+        width: 30px;
+        margin-left: 10px;
+      }
+
+      .countdown-container {
+        text-align: center;
+      }
+
+      #countdown {
+        font-size: 30px;
+      }
+    </style>
+    <script src="config.json"></script>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Standup Timer</h1>
+    <div class="container">
+      <span>Seconds Allotted:</span>
+      <input type="text" name="secondsAllocated" id="secondsAllocated" value="30">
+    </div>
+    <div class="container countdown-container">
+      <label id="countdown">30</label>
+    </div>
+    <div class="container">
+      <input type="button" name="startTimer" id="startTimer" value="Go">
+    </div>
+    
+  </body>
+</html>

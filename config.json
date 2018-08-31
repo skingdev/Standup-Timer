@@ -1,0 +1,7 @@
+var config = {
+  "default_start_seconds": 45,
+  "caution_color": "yellow",
+  "caution_starts_at_seconds": 15,
+  "warning_color": "red",
+  "warning_starts_at_seconds": 5
+}
